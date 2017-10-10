@@ -4,5 +4,6 @@ if File.exist?(gemfile_path)
   puts "Ruby"
   exit 0
 else
+  puts "Where is my Ruby?"
   exit 1
 end
